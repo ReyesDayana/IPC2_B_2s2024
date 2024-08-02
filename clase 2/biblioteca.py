@@ -4,8 +4,8 @@ from persona import Lector, Bibliotecario
 class Biblioteca:
     def __init__(self, nombre):
         self.nombre=nombre
-        self.libros = []
-        self.miembros = []
+        self.libros = {}
+        self.miembros = {}
 
     def __str__(self):
         return f"Biblioteca: {self.nombre}"

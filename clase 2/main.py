@@ -5,7 +5,6 @@ from biblioteca import Biblioteca
 
 def main():
     biblioteca = Biblioteca("Biblioteca USAC")
-    print(biblioteca)
 
     libro1 = Libro("1984","Geoge Orwell", "0001", 5)
     libro2 = Libro("Cien años de Soledad", "Gabriel Garcia Márquez","002", 1)
@@ -16,4 +15,20 @@ def main():
 
     bibliotecario.añadirLibro(biblioteca,libro1)
     bibliotecario.añadirLibro(biblioteca, libro2)
-main()
+
+    # Agregar miembros a la biblioteca
+    biblioteca.agregar_miembro(lector)
+    biblioteca.agregar_miembro(bibliotecario)
+
+    # Préstamo de libros
+    biblioteca.prestar_libro(lector, libro1)
+    biblioteca.prestar_libro(lector, libro2)
+
+    # Devolución de libros
+    biblioteca.devolver_libro(lector, libro1)
+    biblioteca.devolver_libro(lector, libro2)
+
+    # Remover libros de la biblioteca
+    bibliotecario.eliminarLibro(biblioteca, libro1)
+if __name__ == "__main__":
+    main()

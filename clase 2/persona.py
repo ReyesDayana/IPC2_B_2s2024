@@ -32,8 +32,8 @@ class Bibliotecario(Persona):
 
     def añadirLibro(self, biblioteca, libro):
         biblioteca.agregarLibro(libro)
-        print(f"{self.name} ha añadido el libro {libro.titulo} a la biblioteca")
+        print(f"{self.nombre} ha añadido el libro {libro.titulo} a la biblioteca")
 
     def eliminarLibro(self, biblioteca, libro):
         biblioteca.eliminarLibro(libro)
-        print(f"{self.name} ha eliminado el libro {libro.titulo} de la biblioteca")
+        print(f"{self.nombre} ha eliminado el libro {libro.titulo} de la biblioteca")
