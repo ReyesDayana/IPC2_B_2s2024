@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <libro>
+        <titulo>Cien años de soledad</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <genero>Realismo mágico</genero>
+        <publicacion>
+            <editorial>Editorial Sudamericana</editorial>
+            <anio>1967</anio>
+        </publicacion>
+        <precio moneda="USD">12.99</precio>
+    </libro>
+    <libro>
+        <titulo>Otro libro</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <genero>Realismo</genero>
+        <publicacion>
+            <editorial>Editorial</editorial>
+            <anio>1900</anio>
+        </publicacion>
+        <precio moneda="USD">15.00</precio>
+    </libro>
+</biblioteca>
