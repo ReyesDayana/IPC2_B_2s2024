@@ -1,0 +1,54 @@
+digraph G { 
+node[shape=box] 
+label= "Tiendas y Envios" 
+tienda0[label="Tienda: Tecnologia USAC
+Zona: 12"] 
+envio0[label="Cliente: Marta perez
+Direccion: 17 calle zona 4"] 
+envio1[label="Cliente: Mario Lopez
+Direccion: 5ta avenida zona 8"] 
+envio2[label="Cliente: Juan Alvarez
+Direccion: 17 calle zona 9"] 
+envio3[label="Cliente: Luis Maldonado
+Direccion: 18 calle zona 6 de mixco"] 
+envio4[label="Cliente: Marta perez
+Direccion: 17 calle zona 4"] 
+tienda1[label="Tienda: Todo tec
+Zona: 5"] 
+envio5[label="Cliente: Angel Bran
+Direccion: 5ta calle zona 6"] 
+envio6[label="Cliente: Alexander Hernandez
+Direccion: 7ma calle  zona 8"] 
+envio7[label="Cliente: Dulce Vela
+Direccion: 3ra avenida  zona 9"] 
+envio8[label="Cliente: Angel Bran
+Direccion: 5ta calle zona 6"] 
+envio9[label="Cliente: Angel Bran
+Direccion: 3ra avenida zona 3"] 
+tienda2[label="Tienda: Tecnologia y mas
+Zona: 14"] 
+envio10[label="Cliente: Marta perez
+Direccion: 5ta avenida zona 3"] 
+envio11[label="Cliente: Ana Martínez
+Direccion: 16-30  zona 1 de mixco"] 
+envio12[label="Cliente: Ana Martínez
+Direccion: 16-30  zona 1 de mixco"] 
+envio13[label="Cliente: Luisa Martinez
+Direccion: 7 calle zona 21"] 
+{rank=same; tienda0 -> tienda1}
+{ tienda0 -> envio0} 
+{ envio0 -> envio1}
+{ envio1 -> envio2}
+{ envio2 -> envio3}
+{ envio3 -> envio4}
+{rank=same; tienda1 -> tienda2}
+{ tienda1 -> envio5} 
+{ envio5 -> envio6}
+{ envio6 -> envio7}
+{ envio7 -> envio8}
+{ envio8 -> envio9}
+{ tienda2 -> envio10} 
+{ envio10 -> envio11}
+{ envio11 -> envio12}
+{ envio12 -> envio13}
+}
