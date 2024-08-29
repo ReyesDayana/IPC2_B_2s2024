@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<envios>
+	<tiendas>
+		<tienda>Tecnologia USAC</tienda>
+		<envio direccion="17 calle zona 4" ordenes="2">Marta perez</envio>
+		<envio direccion="5ta avenida zona 8" ordenes="1">Mario Lopez</envio>
+		<envio direccion="17 calle zona 9" ordenes="1">Juan Alvarez</envio>
+		<envio direccion="18 calle zona 6 de mixco" ordenes="1">Luis Maldonado</envio>
+	</tiendas>
+	<tiendas>
+		<tienda>Todo tec</tienda>
+		<envio direccion="5ta calle zona 6" ordenes="2">Angel Bran</envio>
+		<envio direccion="7ma calle  zona 8" ordenes="1">Alexander Hernandez</envio>
+		<envio direccion="3ra avenida  zona 9" ordenes="1">Dulce Vela</envio>
+		<envio direccion="3ra avenida zona 3" ordenes="1">Angel Bran</envio>
+	</tiendas>
+	<tiendas>
+		<tienda>Tecnologia y mas</tienda>
+		<envio direccion="5ta avenida zona 3" ordenes="1">Marta perez</envio>
+		<envio direccion="16-30  zona 1 de mixco" ordenes="2">Ana Martínez</envio>
+		<envio direccion="7 calle zona 21" ordenes="1">Luisa Martinez</envio>
+	</tiendas>
+</envios>

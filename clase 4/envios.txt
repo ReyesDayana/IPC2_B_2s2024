@@ -1,0 +1,67 @@
+digraph G { 
+node[shape=box] 
+label= "Envios finales" 
+envio0[label="Tienda: Tecnologia USAC 
+Cliente: Marta perez
+ Direccion: 17 calle zona 4
+ Numero de ordenes: 2 "] 
+envio1[label="Tienda: Tecnologia USAC 
+Cliente: Mario Lopez
+ Direccion: 5ta avenida zona 8
+ Numero de ordenes: 1 "] 
+envio2[label="Tienda: Tecnologia USAC 
+Cliente: Juan Alvarez
+ Direccion: 17 calle zona 9
+ Numero de ordenes: 1 "] 
+envio3[label="Tienda: Tecnologia USAC 
+Cliente: Luis Maldonado
+ Direccion: 18 calle zona 6 de mixco
+ Numero de ordenes: 1 "] 
+envio4[label="Tienda: Todo tec 
+Cliente: Angel Bran
+ Direccion: 5ta calle zona 6
+ Numero de ordenes: 2 "] 
+envio5[label="Tienda: Todo tec 
+Cliente: Alexander Hernandez
+ Direccion: 7ma calle  zona 8
+ Numero de ordenes: 1 "] 
+envio6[label="Tienda: Todo tec 
+Cliente: Dulce Vela
+ Direccion: 3ra avenida  zona 9
+ Numero de ordenes: 1 "] 
+envio7[label="Tienda: Todo tec 
+Cliente: Angel Bran
+ Direccion: 3ra avenida zona 3
+ Numero de ordenes: 1 "] 
+envio8[label="Tienda: Tecnologia y mas 
+Cliente: Marta perez
+ Direccion: 5ta avenida zona 3
+ Numero de ordenes: 1 "] 
+envio9[label="Tienda: Tecnologia y mas 
+Cliente: Ana Martínez
+ Direccion: 16-30  zona 1 de mixco
+ Numero de ordenes: 2 "] 
+envio10[label="Tienda: Tecnologia y mas 
+Cliente: Luisa Martinez
+ Direccion: 7 calle zona 21
+ Numero de ordenes: 1 "] 
+{rank=same; envio0 ->envio1}
+{rank=same; envio1 ->envio2}
+{rank=same; envio1 ->envio0}
+{rank=same; envio2 ->envio3}
+{rank=same; envio2 ->envio1}
+{rank=same; envio3 ->envio4}
+{rank=same; envio3 ->envio2}
+{rank=same; envio4 ->envio5}
+{rank=same; envio4 ->envio3}
+{rank=same; envio5 ->envio6}
+{rank=same; envio5 ->envio4}
+{rank=same; envio6 ->envio7}
+{rank=same; envio6 ->envio5}
+{rank=same; envio7 ->envio8}
+{rank=same; envio7 ->envio6}
+{rank=same; envio8 ->envio9}
+{rank=same; envio8 ->envio7}
+{rank=same; envio9 ->envio10}
+{rank=same; envio9 ->envio8}
+}
