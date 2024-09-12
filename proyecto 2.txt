@@ -1,0 +1,7 @@
+Semana 1: Análisis del proyecto, construir la interfaz de usuario con las funcionalidades como cargar archivo, apartado de ayuda y lectura del archivo XML 
+
+Semana 2: Construcción de las estructuras de datos y sus funcionalidades y guardado en la estructura.
+
+Semana 3:  análisis de los productos, escritura del XML, añadir funcionalidad de que inicialice todos los datos del programa
+
+semana 4: Construcción de los reportes en graphviz, reportes en HTML y documentación
