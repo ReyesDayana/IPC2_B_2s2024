@@ -8,6 +8,7 @@ def hello_world():
 
 @app.route('/ejemplo')
 def ejemplo():
+
     return 'Esta es la ruta de ejemplo'
 
 if __name__ == '__main__':

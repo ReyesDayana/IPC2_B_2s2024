@@ -1,0 +1,6 @@
+<h1>Lista de productos utilizando model</h1>
+<ul>
+    {% for producto in productos %}
+        <li>{{ producto.nombre }} - {{producto.precio}}</li>
+    {% endfor %}
+</ul>
