@@ -1,0 +1,12 @@
+digraph G { 
+node[shape=box] 
+label= "Personas" 
+alumno0[label="Nombre: Juan
+ Edad: 25 "] 
+alumno1[label="Nombre: María
+ Edad: 30 "] 
+alumno2[label="Nombre: Pedro
+ Edad: 35 "] 
+{rank=same; alumno0 ->alumno1}
+{rank=same; alumno1 ->alumno2}
+}

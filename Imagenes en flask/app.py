@@ -4,6 +4,10 @@ import os
 from ListaPersonas import Personas
 app = Flask(__name__)
 
+@app.route("/")
+def saludo():
+    return "Hola mundo!"
+
 
 @app.route('/grafica')
 def generar_grafico():
