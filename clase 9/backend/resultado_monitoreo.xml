@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<resultado_monitoreo>
+  <fecha>2024-10-10</fecha>
+  <ciudad nombre="Ciudad de Guatemala">
+    <detalle_mensajes>
+      <mensaje numero="1">
+        <fecha>2024-10-08 08:00</fecha>
+        <palabras_optimo>2</palabras_optimo>
+        <palabras_neutro>1</palabras_neutro>
+        <palabras_inadecuado>2</palabras_inadecuado>
+      </mensaje>
+      <mensaje numero="2">
+        <fecha>2024-10-08 12:00</fecha>
+        <palabras_optimo>0</palabras_optimo>
+        <palabras_neutro>1</palabras_neutro>
+        <palabras_inadecuado>2</palabras_inadecuado>
+      </mensaje>
+      <mensaje numero="3">
+        <fecha>2024-10-08 18:00</fecha>
+        <palabras_optimo>1</palabras_optimo>
+        <palabras_neutro>0</palabras_neutro>
+        <palabras_inadecuado>0</palabras_inadecuado>
+      </mensaje>
+    </detalle_mensajes>
+    <mensajes>
+      <optimo>1</optimo>
+      <neutro>1</neutro>
+      <inadecuado>1</inadecuado>
+    </mensajes>
+  </ciudad>
+  <ciudad nombre="Antigua Guatemala">
+    <detalle_mensajes>
+      <mensaje numero="1">
+        <fecha>2024-10-08 08:00</fecha>
+        <palabras_optimo>4</palabras_optimo>
+        <palabras_neutro>0</palabras_neutro>
+        <palabras_inadecuado>0</palabras_inadecuado>
+      </mensaje>
+      <mensaje numero="2">
+        <fecha>2024-10-08 12:00</fecha>
+        <palabras_optimo>0</palabras_optimo>
+        <palabras_neutro>1</palabras_neutro>
+        <palabras_inadecuado>0</palabras_inadecuado>
+      </mensaje>
+    </detalle_mensajes>
+    <mensajes>
+      <optimo>1</optimo>
+      <neutro>1</neutro>
+      <inadecuado>0</inadecuado>
+    </mensajes>
+  </ciudad>
+  <ciudad nombre="Quetzaltenango">
+    <detalle_mensajes>
+      <mensaje numero="1">
+        <fecha>2024-10-08 08:00</fecha>
+        <palabras_optimo>0</palabras_optimo>
+        <palabras_neutro>2</palabras_neutro>
+        <palabras_inadecuado>0</palabras_inadecuado>
+      </mensaje>
+      <mensaje numero="2">
+        <fecha>2024-10-08 12:00</fecha>
+        <palabras_optimo>0</palabras_optimo>
+        <palabras_neutro>0</palabras_neutro>
+        <palabras_inadecuado>1</palabras_inadecuado>
+      </mensaje>
+    </detalle_mensajes>
+    <mensajes>
+      <optimo>0</optimo>
+      <neutro>1</neutro>
+      <inadecuado>1</inadecuado>
+    </mensajes>
+  </ciudad>
+</resultado_monitoreo>

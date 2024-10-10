@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<solicitud_monitoreo>
+  <diccionario>
+    <calidadAire>
+      <optimo>excelente, limpio, claro</optimo>
+      <neutro>regular, aceptable</neutro>
+      <inadecuado>malo, sucio, contaminado</inadecuado>
+    </calidadAire>
+    <ruido>
+      <optimo>silencioso, tranquilo</optimo>
+      <neutro>moderado, soportable</neutro>
+      <inadecuado>ruidoso, molesto</inadecuado>
+    </ruido>
+    <temperatura>
+      <optimo>agradable, templado</optimo>
+      <neutro>caluroso, fresco</neutro>
+      <inadecuado>caliente, sofocante</inadecuado>
+    </temperatura>
+  </diccionario>
+
+  <ciudades>
+    <ciudad nombre="Ciudad de Guatemala">
+      <lectura>
+        <fecha>2024-10-08 08:00</fecha>
+        <mensaje>El aire está muy limpio, aunque lo malo es que solo en una parte. El ruido es soportable en el centro, pero molesto en las afueras. La temperatura es agradable.</mensaje>
+      </lectura>
+      <lectura>
+        <fecha>2024-10-08 12:00</fecha>
+        <mensaje>La calidad del aire es regular. El ruido es muy ruidoso y molesto. La temperatura está algo calurosa.</mensaje>
+      </lectura>
+      <lectura>
+        <fecha>2024-10-08 18:00</fecha>
+        <mensaje>El aire está claro en la mayor parte de la ciudad. El ruido ha disminuido un poco y la temperatura sigue siendo templada.</mensaje>
+      </lectura>
+    </ciudad>
+
+    <ciudad nombre="Antigua Guatemala">
+      <lectura>
+        <fecha>2024-10-08 08:00</fecha>
+        <mensaje>El aire es excelente y muy limpio. El ambiente es silencioso y la temperatura es agradable.</mensaje>
+      </lectura>
+      <lectura>
+        <fecha>2024-10-08 12:00</fecha>
+        <mensaje>La calidad del aire es clara, aunque hay más movimiento en la ciudad. El ruido sigue siendo moderado y la temperatura está fresca.</mensaje>
+      </lectura>
+    </ciudad>
+
+    <ciudad nombre="Quetzaltenango">
+      <lectura>
+        <fecha>2024-10-08 08:00</fecha>
+        <mensaje>El aire está regular. El ruido es soportable, pero la temperatura es fresca.</mensaje>
+      </lectura>
+      <lectura>
+        <fecha>2024-10-08 12:00</fecha>
+        <mensaje>El aire está sucio debido al tráfico. El ruido ha aumentado y la temperatura se mantiene calurosa.</mensaje>
+      </lectura>
+    </ciudad>
+  </ciudades>
+</solicitud_monitoreo>

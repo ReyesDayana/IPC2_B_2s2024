@@ -1,0 +1,36 @@
+<!-- templates/analizador_xml/xml_text.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML Analyzer</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>XML Analyzer Interface</h1>
+        <form method="post">
+            {% csrf_token %}
+            <div class="input-group">
+                <div class="input-container">
+                    <label for="xml_input">Ingrese su XML aquí:</label>
+                    <textarea name="xml_input" id="xml_input">{{ xml_input }}</textarea>
+                </div>
+
+                <div class="input-container">
+                    <label for="xml_output">Resultado XML:</label>
+                    <textarea name="xml_output" id="xml_output" readonly>{{ xml_output }}</textarea>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <button type="submit" name="analyze" class="button analyze">Analyze XML</button>
+                <button type="submit" name="result" class="button result">Show Result</button>
+                <button type="submit" name="reset" class="button reset">Clear Form</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
