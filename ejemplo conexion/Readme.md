@@ -21,6 +21,14 @@ INSTALLED_APPS = [
 La conexion con el backend esta hecha en myfrontend/views.py , en templates estan las plantillas html donde se obtienen la informacion a mandar al backend. Para este ejemplo se manda un json un username y password. Al hacer el request.post se esta comunicando con el servidor en flask y response se iguala a la respuesta que nos da flask (si fue correcta la peticion o si hubo un error). Se hace una de estas con cada uno de los endpoints (de flask) que vamos a estar usando .
 
 ```bash
+username = request.POST['username']
+password = request.POST['password']
+```
+request.POST['username']: Extrae el valor del campo del formulario con el nombre username que se ha enviado desde el formulario de login.
+request.POST['password']: Extrae el valor del campo del formulario con el nombre password que también se envió desde el mismo formulario.
+
+
+```bash
 response = requests.post('http://127.0.0.1:5000/api/login', json={
             'username': username,
             'password': password
