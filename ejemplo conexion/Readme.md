@@ -18,8 +18,7 @@ INSTALLED_APPS = [
 3. Configurar urls.py en myfrontend
 4. configurar urls.py en frontend
 
-La conexion con el backend esta hecha en views.py , en templates estan las plantillas html donde se obtienen la informacion a mandar al backend.
- 
+La conexion con el backend esta hecha en myfrontend/views.py , en templates estan las plantillas html donde se obtienen la informacion a mandar al backend. Para este ejemplo se manda un json un username y password. Al hacer el request.post se esta comunicando con el servidor en flask y response se iguala a la respuesta que nos da flask (si fue correcta la peticion o si hubo un error). Se hace una de estas con cada uno de los endpoints (de flask) que vamos a estar usando .
 
 ```bash
 response = requests.post('http://127.0.0.1:5000/api/login', json={
@@ -30,6 +29,7 @@ response = requests.post('http://127.0.0.1:5000/api/login', json={
 esa direccion es la direccion que les da flask al iniciar el programa + su endpoint (en flask)
 
 # Etiqueta para cargar css en html
+Para agregarle css a un archivo html se tiene que poner la etiqueta siguiente (en el html) para que se reconozca que estamos agregando estilo.
 ```bash
   {% load static %}
 ```
