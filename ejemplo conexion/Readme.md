@@ -1,4 +1,4 @@
-# Comandos
+# Comandos para iniciar el proyecto en django
 ```bash
 django-admin startproject frontend
 cd frontend
