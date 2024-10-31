@@ -1,0 +1,10 @@
+digraph G { 
+node[shape=box] 
+label= "Lista circular" 
+nodo0[label= "Valor: 1"] 
+nodo1[label= "Valor: 2"] 
+nodo2[label= "Valor: 3"] 
+{rank=same; nodo0 -> nodo1}
+{rank=same; nodo1 -> nodo2}
+{rank=same; nodo2 -> nodo0}
+}

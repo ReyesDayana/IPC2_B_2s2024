@@ -1,0 +1,20 @@
+digraph G { 
+node[shape=box] 
+label= "Lista doblemente enlazada" 
+nodo0[label="Valor :1 "]
+nodo1[label="Valor :2 "]
+nodo2[label="Valor :3 "]
+nodo3[label="Valor :4 "]
+nodo4[label="Valor :5 "]
+nodo5[label="Valor :6 "]
+{rank = same; nodo0 -> nodo1} 
+{rank = same; nodo1 -> nodo2} 
+{rank = same; nodo1 -> nodo0} 
+{rank = same; nodo2 -> nodo3} 
+{rank = same; nodo2 -> nodo1} 
+{rank = same; nodo3 -> nodo4} 
+{rank = same; nodo3 -> nodo2} 
+{rank = same; nodo4 -> nodo5} 
+{rank = same; nodo4 -> nodo3} 
+{rank = same; nodo5 -> nodo4} 
+}

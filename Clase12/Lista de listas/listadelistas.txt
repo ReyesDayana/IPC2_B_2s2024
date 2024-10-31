@@ -1,0 +1,23 @@
+digraph G { 
+node[shape=box] 
+label= "Lista de listas" 
+principal0[label="nombre: numeros "] 
+valor0[label="Valor: 1 "] 
+valor1[label="Valor: 2 "] 
+valor2[label="Valor: 3 "] 
+valor3[label="Valor: 4 "] 
+principal1[label="nombre: mas numeros "] 
+valor4[label="Valor: 5 "] 
+valor5[label="Valor: 6 "] 
+valor6[label="Valor: 7 "] 
+valor7[label="Valor: 8 "] 
+{rank=same; principal0 ->principal1}
+{ principal0 ->valor0}
+{ valor0 ->valor1}
+{ valor1 ->valor2}
+{ valor2 ->valor3}
+{ principal1 ->valor4}
+{ valor4 ->valor5}
+{ valor5 ->valor6}
+{ valor6 ->valor7}
+}

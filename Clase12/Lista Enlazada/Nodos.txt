@@ -1,0 +1,9 @@
+digraph G{ 
+node[shape=box] 
+label= "Lista Simple" 
+nodo1[label = "Valor: 1"]
+nodo2[label = "Valor: 2"]
+nodo3[label = "Valor: 3"]
+{rank=same; nodo1->nodo2}
+{rank=same; nodo2->nodo3}
+}
